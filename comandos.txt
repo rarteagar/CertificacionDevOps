@@ -1,11 +1,11 @@
 https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-the-linux-kernel-update-package
 
-docker build -t docker-build .
+docker build -t certi-devdops-20222601-01 .
 
-docker run -e PORT=80 -p 80:80 docker-build
-
-docker run docker-build
+docker run certi-devdops-20222601-01
 
 https://certificacion-dev-ops-j5gmv4gpnq-uc.a.run.app
 
 certificaciondevops.robertoarteaga.net
+
+
