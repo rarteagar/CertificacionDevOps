@@ -2,7 +2,7 @@ https://learn.microsoft.com/en-us/windows/wsl/install-manual#step-4---download-t
 
 docker build -t certi-devdops-20222601-01 .
 
-docker run -e PORT=80 -p 80:80 certi-devdops-20222601-01
+docker run -e PUERTO_ESCUCHA=80 -p 80:80 certi-devdops-20222601-01
 
 
 https://certificacion-dev-ops-j5gmv4gpnq-uc.a.run.app
