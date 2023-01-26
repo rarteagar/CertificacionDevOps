@@ -4,6 +4,8 @@ docker build -t docker-build .
 
 docker run -e PORT=80 -p 80:80 docker-build
 
+docker run docker-build
+
 https://certificacion-dev-ops-j5gmv4gpnq-uc.a.run.app
 
 certificaciondevops.robertoarteaga.net
