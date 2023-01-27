@@ -5,6 +5,8 @@ docker build -t certi-devdops-20222601-01 .
 docker run -e PUERTO_ESCUCHA=8080 -p 8080:8080 certi-devdops-20222601-01
 
 
+docker run -p 8080:8080 certi-devdops-20222601-01
+
 
 https://certificacion-dev-ops-j5gmv4gpnq-uc.a.run.app
 
